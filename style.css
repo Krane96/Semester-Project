@@ -1,0 +1,18 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section
+
+header{
+    background-color: gray;
+}
+.navbar{
+    list-style: none;
+}
+nav li{
+    visibility: hidden;
+}
