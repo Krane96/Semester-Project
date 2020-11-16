@@ -3,6 +3,8 @@ body{
     display: flex;
     justify-content: center;
     color: blanchedalmond;
+    margin: 0;
+    padding: 0;
 }
 .menu{
     border-radius: 10px;
