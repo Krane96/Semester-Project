@@ -2,17 +2,18 @@ body{
     min-height: 100vh;
     display: flex;
     justify-content: center;
+    color: blanchedalmond;
+}
+.menu{
+    border-radius: 10px;
+    background: rgb(70, 153, 246);
+    padding: 5px;
     align-items: center;
+    margin-bottom: 5px;
+    display: inline block;
 }
-
-section
-
-header{
-    background-color: gray;
-}
-.navbar{
-    list-style: none;
-}
-nav li{
-    visibility: hidden;
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
 }
