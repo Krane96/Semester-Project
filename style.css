@@ -76,10 +76,11 @@ h4{
 .navmenu h1{
     grid-column: 1/4;
     grid-row: 1;
-    padding-bottom: 10px;
+    padding: 15px;
     border-bottom: 3px solid var(--color1);
     text-transform: uppercase;
     font-weight: 500;
+    font-size: 1.8em;
 }
 #welcome{
     padding: 0 20px 20px 20px;
@@ -91,7 +92,7 @@ h4{
     grid-column: 6/8;
 }
 .welcome-img img{
-    width: 200%;
+    width: 150%;
 }
 .welcome-text a{
     margin: 20px 0;
