@@ -1,9 +1,133 @@
 body{
     font-family: 'Rubik', sans-serif;
-    padding: 0;
+    background: var(--color2);
+    overflow-x: hidden;
+}
+body, p, li, a, ul{
     margin: 0;
+    padding: 0%;
+    text-decoration: none;
+}
+:root{
+    --color1: rgb(250, 148, 65);
+    --color2: rgb(3, 15, 122);
+}
+li{
+    list-style-type: none;
+}
+.button{
+    background: none;
+    border: 2px solid var(--color1);
+    color: var(--color1);
+    padding: 6px 12px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.6);
+    display: inline-block;
+}
+.button:hover{
+    color: whitesmoke;
+    background: var(--color1);
+}
+input, textarea{
+    background: rgba(255,255,255,0.05);
+    padding: 10px 16px;
+    border-radius: 15px;
+    border: 2px solid #9893D8;
+    color: whitesmoke;
+}
+h1, h2, h3, h4{
+    color: whitesmoke;
+    font-weight: normal;
+}
+p, a, li{
+ color: #9893D8;
+}
+h1,h3{
+  font-size: 1.2em;
+}
+h2{
+    font-size: 1.6em;
+}
+h4{
+    font-size: 1.1em;
 }
 
-h2{
-    font-size: 14px;
+.leading{
+    font-size: 1.1em;
 }
+/*mobile*/
+.grid{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+.navmenu{
+    margin: 0 20px;
+}
+.navmenu ul{
+    display: none;
+}
+.navmenu h1{
+    grid-column: 1/4;
+    grid-row: 1;
+    padding-bottom: 10px;
+    border-bottom: 3px solid var(--color1);
+}
+#welcome{
+    padding: 0 20px 20px 20px;
+}
+.welcome-text{
+    grid-column: 1/6;
+}
+.welcome-img{
+    grid-column: 6/9;
+}
+.welcome-img img{
+    width: 200%;
+}
+.welcome-text a{
+    margin: 20px 0;
+}
+#gallery{
+    background: url();
+}
+#gallery h3{
+    margin-bottom: 0;
+    text-align: center;
+}
+.projects a{
+    grid-column: 1/9;
+    margin: 20px 0;
+    display: flex;
+}
+.projects a *{
+    margin: 0 20px;
+    max-width: 40%;
+    align-self: center;
+}
+.projects h4{
+    color: #9893D8;
+}
+
+/* Small screen */
+@media screen and (min-width: 620px){
+
+}
+
+/* Large screens like laptops*/
+@media screen and (min-width: 960px){
+    body{
+        font-size: 18px;
+    }
+    
+}
+
+/* Desktop screens*/
+@media screen and (min-width: 1200px){
+    body{
+        font-size: 20px;
+    }
+}
+
+
+/*Grid test*/
