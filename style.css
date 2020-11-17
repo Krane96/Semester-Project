@@ -108,6 +108,19 @@ h4{
 .projects h4{
     color: #9893D8;
 }
+#skills{
+    padding: 30px 20px;
+    background: rgb(17, 17, 58);
+}
+#skills h3{
+    text-align: center;
+}
+#skills ul{
+    margin: 40px 0;
+}
+#skills li{
+    padding: 10px;
+}
 
 /* Small screen */
 @media screen and (min-width: 620px){
