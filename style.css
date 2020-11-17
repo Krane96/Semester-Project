@@ -70,9 +70,6 @@ h4{
     margin: 0 20px;
     margin-top: 15px;
 }
-.navmenu ul{
-    display: none;
-}
 .navmenu h1{
     grid-column: 1/4;
     grid-row: 1;
@@ -81,6 +78,13 @@ h4{
     text-transform: uppercase;
     font-weight: 500;
     font-size: 1.8em;
+}
+#gallery .projects h4, h3{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#gallery .projects h4{
+    color: whitesmoke;
 }
 #welcome{
     padding: 0 20px 20px 20px;
@@ -124,7 +128,7 @@ h4{
 }
 #skills h3{
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 #skills ul{
     margin: 40px 0;
