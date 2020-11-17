@@ -68,6 +68,7 @@ h4{
 }
 .navmenu{
     margin: 0 20px;
+    margin-top: 15px;
 }
 .navmenu ul{
     display: none;
@@ -95,15 +96,17 @@ h4{
 .welcome-text a{
     margin: 20px 0;
 }
-#gallery{
-    background: url();
-}
+
 #gallery h3{
     margin-bottom: 0;
     text-align: center;
 }
 #gallery h4{
     color: #48BFE3;
+}
+#gallery img{
+
+
 }
 .projects a{
     grid-column: 1/9;
