@@ -88,7 +88,7 @@ h4{
     grid-column: 1/6;
 }
 .welcome-img{
-    grid-column: 6/9;
+    grid-column: 6/8;
 }
 .welcome-img img{
     width: 200%;
@@ -103,10 +103,6 @@ h4{
 }
 #gallery h4{
     color: #48BFE3;
-}
-#gallery img{
-
-
 }
 .projects a{
     grid-column: 1/9;
@@ -140,8 +136,10 @@ h4{
     text-transform: capitalize;
 }
 #skills img{
-    height: 80px;
     margin: 10px auto;
+    width: 100%;
+    background-size: cover;
+    background-image: url(images/activities1.jpg);
 }
 #contact{
     padding: 30px 20px;
