@@ -222,7 +222,7 @@ footer img{
     line-height: 70px;
     background: #1D3557;
     border-bottom: 2px solid var(--color2);
-    text-align: right;
+    text-align: center;
     align-items: center;
 }
 .menu{
