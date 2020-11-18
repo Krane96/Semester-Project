@@ -80,25 +80,7 @@ nav{
     font-weight: 500;
 }
 .nav-links{
-    display: flex;
-    width: 30%;
-    justify-content: space-around;
-}
-.nav-links, li, a{
-    text-decoration: none;
-    color: blanchedalmond;
-    letter-spacing: 2px;
-    font-weight: 500;
-}
-.burger{
     display: none;
-    cursor: pointer;
-}
-.burger div{
-    width: 25px;
-    height: 3px;
-    background-color: blanchedalmond;
-    margin: 5px;
 }
 #gallery .projects h4, h3{
     text-transform: uppercase;
@@ -167,6 +149,7 @@ nav{
     background-size: cover;
     background-image: url(images/activities1.jpg);
 }
+
 #contact{
     padding: 30px 20px;
     background: #1D3557;
@@ -218,7 +201,7 @@ footer img{
 
 /* Small screen */
 @media screen and (min-width: 620px){
-   
+    
 }
 
 /* Large screens like laptops*/
@@ -226,9 +209,7 @@ footer img{
     body{
         font-size: 18px;
     }
-    .nav-links{
-        width: 60%;
-    }
+    
     
 }
 
@@ -239,28 +220,55 @@ footer img{
     }
 }
 
-@media screen and (max-width:768px){
-    .nav-links{
-        position: absolute;
-        right: 0px;
-        height: 92vh;
-        top: 8vh;
-        background: var(--color1);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 30%;
-        transform: translateX(100%);
+
+
+
+/*Nav Menu*/
+.nav{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    background: #1D3557;
+}
+.menu{
+  margin: 0 30px 0 0;
+}
+.menu a{
+    clear: right;
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+label{
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+#toggle {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    label {
+        display: block;
+        cursor: pointer;
     }
-    .nav-links li{
-        opacity: 0;
+    .menu{
+        text-align: center;
+        width: 100%;
+        display: none;
     }
-    .burger{
+    .menu a{
+      display: block;
+      border-bottom: 1px solid #457B9D;
+      margin: 0;
+    }
+    #toggle:checked + .menu{
         display: block;
     }
 }
-.nav-active{
-    transform: translateX(0%);
-}
-
-/*Grid test*/
