@@ -222,7 +222,6 @@ footer img{
 }
 .nav{
     text-align: right;
-    height: 70px;
     line-height: 70px;
     background: #1D3557;
     border-bottom: 2px solid var(--color2);
