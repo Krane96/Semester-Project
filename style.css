@@ -11,7 +11,7 @@ body, p, li, a, ul{
 :root{
     --color1: #48BFE3;
     --color2: #457B9D;
-    --color3: #1c1061;
+    --color3: #5E60CE;
 }
 li{
     list-style-type: none;
