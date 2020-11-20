@@ -11,13 +11,13 @@ body, p, li, a, ul{
 :root{
     --color1: #48BFE3;
     --color2: #457B9D;
-    --color3: #f57723;
+    --color3: #1c1061;
 }
 li{
     list-style-type: none;
 }
 .button{
-    background: none;
+    background: var(--color3);
     border: 2px solid var(--color3);
     color: whitesmoke;
     padding: 6px 12px;
@@ -76,7 +76,11 @@ h4{
     color: whitesmoke;
 }
 #welcome{
-    padding: 0 20px 20px 20px;
+    padding: 50px 20px 20px 20px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/welcomeimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
 .welcome-text{
     grid-column: 1/6;
@@ -123,13 +127,14 @@ h4{
     margin: 40px 0;
 }
 #skills li{
-
+    padding: 10px;
     background: rgba(0, 0, 0, 0.2);
     grid-column: span 4;
     text-align: center;
     text-transform: capitalize;
 }
 #skills img{
+    margin: 10px auto;
     width: 100%;
     background-size: cover;
 }
@@ -212,7 +217,7 @@ footer img{
 }
 @media screen and (min-width: 300px){
     body{
-        font-size: 12px;
+        font-size: 13px;
     }
 }
 
@@ -233,7 +238,6 @@ footer img{
 .nav{
     line-height: 60px;
     background: #1D3557;
-    border-bottom: 2px solid var(--color2);
     text-align: center;
     align-items: center;
 }
