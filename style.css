@@ -321,7 +321,6 @@ footer{
     grid-column: 2/4;
 }
 .nav{
-    line-height: 60px;
     background-color: #001233;
     text-align: center;
     align-items: center;
