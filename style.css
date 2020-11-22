@@ -172,7 +172,7 @@ h4{
 footer{
     padding: 30px 20px;
     background-color: #1D3557;
-    background-image: url(images/icon-1719742.svg);
+    background-image: url(images/icon-1719742\ \(2\).png);
     background-size: 20%;
     background-repeat: no-repeat;
     background-position: center;
@@ -321,7 +321,7 @@ footer{
     grid-column: 2/4;
 }
 .nav{
-    background-color: #001233;
+    background-color: #001845;
     text-align: center;
     align-items: center;
 }
@@ -339,7 +339,7 @@ footer{
 
 label{
     font-size: 26px;
-    line-height: 60px;
+;
     display: none;
     width: 26px;
     float: right;
@@ -376,7 +376,7 @@ label{
     }
     .menu a{
       display: block;
-      background: #001233;
+      background: #001845;
       margin: 0;
       border-top: 1.5px solid #457B9D;
       grid-column: 8/9;
