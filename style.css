@@ -67,6 +67,7 @@ h4{
 .leading{
     font-size: 1.1em;
 }
+
 /*mobile*/
 .grid{
     display: grid;
@@ -103,18 +104,12 @@ h4{
 .welcome-text a{
     margin: 20px 0;
 }
-#gallery{
- 
-}
 #gallery h3{
     margin: 40px 0;
     text-align: center;
     grid-column: 3/7;
     font-size: 1.6em;
 
-}
-#gallery h4{
-    color: #48BFE3;
 }
 .projects a{
     grid-column: 1/9;
@@ -130,31 +125,8 @@ h4{
 .projects{
     background-color: var(--color4);
 }
-#skills{
-    padding: 30px 20px;
-    background-size: cover;
 
-}
-#skills h3{
-    text-align: center;
-    text-transform: uppercase;
-}
-#skills ul{
-    margin: 40px 0;
-    background: var(--color2);
-}
-#skills li{
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.2);
-    grid-column: span 4;
-    text-align: center;
-    text-transform: capitalize;
-}
-#skills img{
-    margin: 10px auto;
-    width: 100%;
-    background-size: cover;
-}
+
 
 #contact{
     padding: 30px 20px;
@@ -230,7 +202,7 @@ footer{
     font-size: 14px;
 }
 .nav img{
-    max-width: 60%;
+    max-width: 100%;
 }
 .nav a:hover{
     color:  rgb(90, 88, 88);
@@ -266,7 +238,7 @@ footer{
         margin: 0 15px;
     }
     .nav img{
-        max-width: 50%;
+        max-width: 110%;
     }
     
     #welcome{
@@ -302,9 +274,6 @@ footer{
     body{
         font-size: 20px;
     }
-    #gallery, #skills, #contact{
-        
-    }
  
     footer{
         padding: 80px 0;
@@ -318,8 +287,49 @@ footer{
     }
     .nav img{
         max-width: 100%;
+        grid-column: 1/2;
+         
     }
-
+     .nav h1{
+         text-transform: uppercase;
+         font-size: 16px;
+         font-weight: 500;
+         letter-spacing: 1px;
+         grid-column: 2/9;
+         text-align: left;
+     }
+     .nav{
+         background-color: #001845;
+         text-align: center;
+         align-items: center;
+     }
+     .menu{
+       grid-column: 10/21;
+       text-align: right;
+     }
+     .menu a{
+         clear: right;
+         text-decoration: none;
+         color: whitesmoke;
+         margin-right: 10px;
+         line-height: 60px;
+         font-size: 16px;
+         text-transform: uppercase;
+         font-weight: 500;
+     }
+     
+     label{
+         font-size: 26px;
+         display: none;
+         width: 26px;
+         float: right;
+         color: whitesmoke;
+         grid-column: 19/21;
+     }
+     #toggle {
+         display: none;
+        
+     }
    
 }
 @media screen and (min-width: 500px){
@@ -410,16 +420,22 @@ label{
       margin: 0;
       border-top: 1.5px solid #457B9D;
       grid-column: 16/21;
-      font-size: 18px;
+      font-size: 16px;
     }
     #toggle:checked + .menu{
         display: block;
     }
    .nav img{
        width: 80%;
+       grid-column: 1/4;
    }
    .nav h1{
-       grid-column: 4/18;
-       font-size: 18px;
+       grid-column: 6/16;
+       font-size: 16px;
+       text-align: center;
    }
+}
+
+.activities img{
+    width: 100%;
 }
