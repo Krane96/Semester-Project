@@ -125,12 +125,39 @@ h4{
 .projects{
     background-color: var(--color4);
 }
-
-
+#skills img{
+    height: 130px;
+    margin: 10px auto;
+}
+#skills{
+    padding: 30px 20px;
+    background-color: var(--color4);
+}
+#skills{
+    text-align: center;
+}
+#skills ul{
+    margin: 40px 0;
+}
+#skills li{
+    padding: 10px;
+    background: rgba(0,0,0,0.2);
+    grid-column: span 4;
+    text-align: center;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.6);
+}
+#skills h3{
+    color: white;
+    font-weight: 600;
+}
+#skills h4{
+    font-size: 1.4em;
+    text-transform: capitalize;
+}
 
 #contact{
     padding: 30px 20px;
-    background: #002855;
+    background: var(--color4);
 
 }
 #contact h3, #contact p{
@@ -254,6 +281,9 @@ footer{
      
     #skills{
         padding: 30px 20px;
+        max-width: 1200px;
+        margin: auto;
+        padding: 20 0;
     }
     #skills ul{
         margin: 40px auto;
@@ -264,7 +294,11 @@ footer{
     footer{
         padding: 40px 20px;
     }
-    
+    #contact{
+        max-width: 1200px;
+        margin: auto;
+        padding: 20 0;
+    }
     
 
 }
@@ -434,8 +468,4 @@ label{
        font-size: 16px;
        text-align: center;
    }
-}
-
-.activities img{
-    width: 100%;
 }
