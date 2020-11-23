@@ -214,7 +214,6 @@ footer img{
    }
    #welcome{
        background-size: 100%;
-       height: 45%;
    }
    .welcome-text{
     grid-column: 1/4;
