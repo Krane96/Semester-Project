@@ -14,7 +14,7 @@ body, p, li, a, ul{
 :root{
     --color1: #001845;
     --color2: #457B9D;
-    --color3: #5E60CE;
+    --color3: #f8961e;
     --color4: #002855;
 }
 li{
@@ -123,6 +123,31 @@ h4{
     margin: 0 20px;
     max-width: 40%;
     align-self: center;
+}
+#exhibitions img{
+    width: 100%;
+    margin: 10px auto;
+}
+#exhibitions{
+    padding: 30px 20px;
+    text-align: center;
+
+}
+#exhibtions ul{
+    margin: 40px 0;
+}
+#exhibitions li{
+    padding: 10px;
+    grid-column: span 4;
+    text-align: center;
+}
+#exhibitions h3{
+    color: white;
+    font-weight: 600;
+}
+#exhibitions h4{
+    font-size: 1.4em;
+    text-transform: capitalize;
 }
 
 #skills img{
