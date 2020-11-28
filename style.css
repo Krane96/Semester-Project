@@ -121,7 +121,7 @@ h4{
     font-weight: 700;
 }
 .picture1{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/catergory2.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.10)), url(images/catergory2.jpg);
     width: 80%;
     height: 150px;
     background-position: center;
@@ -130,7 +130,7 @@ h4{
     margin: auto;
 }
 .picture2{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/catergory2.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10)), url(images/catergory2.jpg);
     width: 80%;
     height: 150px;
     background-position: center;
@@ -139,7 +139,7 @@ h4{
     margin: auto;
 }
 .picture3{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/catergory2.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10)), url(images/catergory2.jpg);
     width: 80%;
     height: 150px;
     background-position: center;
