@@ -131,12 +131,12 @@ h4{
     text-transform: capitalize;
     color: #fff;
     font-weight: 700;
-    margin: 65px;
+    margin: 30px;
 }
 .picture1{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.10)), url(images/catergory2.jpg);
     width: 80%;
-    height: 150px;
+    height: 180px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -146,7 +146,7 @@ h4{
 .picture2{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10)), url(images/catergory2.jpg);
     width: 80%;
-    height: 150px;
+    height: 180px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -156,7 +156,7 @@ h4{
 .picture3{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10)), url(images/catergory2.jpg);
     width: 80%;
-    height: 150px;
+    height: 180px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -165,7 +165,7 @@ h4{
 }
 
 #skills img{
-    height: 80px;
+    height: 120px;
     margin: 10px auto;
 }
 #skills{
@@ -184,8 +184,19 @@ h4{
     background-color: var(--color4);
 }
 #skills h3{
-    color: white;
+    color: #fff;
     font-weight: 600;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    margin: 50px auto;
+    width: 80%;
+    background-color: var(--color1);
+    padding: 5px 0;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px black;
+    opacity: 90%;
 }
 #skills h4{
     font-size: 1.4em;
