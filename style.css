@@ -99,15 +99,8 @@ h4{
     margin: 20px 0;
 }
 
-#exhibitions img{
-    width: 100%;
-    margin: 10px auto;
-}
-#exhibitions{
-    padding: 30px 20px;
-    text-align: center;
 
-}
+
 #exhibitions ul{
     margin: 40px 0;
 }
@@ -117,43 +110,42 @@ h4{
     text-align: center;
 }
 #exhibitions h3{
-    color: white;
+    color: black;
     font-weight: 600;
 }
 #exhibitions h4{
     font-size: 1.4em;
-    text-transform: capitalize;
-    position: absolute;
+    text-transform: uppercase;
     color: #fff;
-    background-color: var(--color4);
-    box-shadow: 1px 2px 3px black;
     padding: 10px 20px;
-    border-radius: 13px;
-    margin: auto;
+    font-weight: 700;
 }
 .picture1{
-    background-image: url(images/catergory2.jpg);
-    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/catergory2.jpg);
+    width: 80%;
     height: 150px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin: auto;
 }
 .picture2{
-    background-image: url(images/catergory2.jpg);
-    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/catergory2.jpg);
+    width: 80%;
     height: 150px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin: auto;
 }
 .picture3{
-    background-image: url(images/catergory2.jpg);
-    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/catergory2.jpg);
+    width: 80%;
     height: 150px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin: auto;
 }
 
 #skills img{
