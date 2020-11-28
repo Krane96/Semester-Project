@@ -118,7 +118,7 @@ h4{
     font-weight: 700;
     font-size: 1.8em;
     text-transform: uppercase;
-    margin: 50px auto;
+    margin: 30px auto;
     border-bottom: 3px solid var(--color3);
 }
 #exhibitions h4{
@@ -135,7 +135,7 @@ h4{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: auto;
+    margin: 10px auto;
     border-radius: 3px;
 }
 .picture2{
@@ -145,7 +145,7 @@ h4{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: auto;
+    margin: 10px auto;
     border-radius: 3px;
 }
 .picture3{
@@ -155,7 +155,7 @@ h4{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: auto;
+    margin: 10px auto;
     border-radius: 3px;
 }
 
