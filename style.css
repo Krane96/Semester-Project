@@ -165,8 +165,9 @@ h4{
 }
 
 #skills img{
-    height: 120px;
+    background-size: cover;
     margin: 10px auto;
+    width: 100%;
 }
 #skills{
     padding: 30px 20px;
