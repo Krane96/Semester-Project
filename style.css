@@ -112,22 +112,17 @@ h4{
     text-align: center;
 }
 #exhibitions h3{
-    color: #fff;
+    color: black;
     font-weight: 600;
     text-align: center;
     font-weight: 700;
-    font-size: 1.6em;
+    font-size: 1.8em;
     text-transform: uppercase;
     margin: 50px auto;
-    width: 50%;
-    background-color: var(--color1);
-    padding: 5px 0;
-    border-radius: 5px;
-    box-shadow: 1px 2px 3px black;
-    opacity: 90%;
+    border-bottom: 3px solid var(--color3);
 }
 #exhibitions h4{
-    font-size: 1.4em;
+    font-size: 1.6em;
     text-transform: capitalize;
     color: #fff;
     font-weight: 700;
@@ -185,19 +180,16 @@ h4{
     background-color: var(--color4);
 }
 #skills h3{
-    color: #fff;
+    color: black;
     font-weight: 600;
     text-align: center;
-    font-weight: 700;
-    font-size: 1.6em;
+    font-weight: bold;
+    font-size: 1.8em;
     text-transform: uppercase;
     margin: 50px auto;
-    width: 80%;
-    background-color: var(--color1);
-    padding: 5px 0;
-    border-radius: 5px;
-    box-shadow: 1px 2px 3px black;
-    opacity: 90%;
+    border-bottom: 3px solid var(--color3);
+    
+  
 }
 #skills h4{
     font-size: 1.4em;
