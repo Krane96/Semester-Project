@@ -1,6 +1,6 @@
 body{
     font-family: 'Rubik', sans-serif;
-    background: #fff;
+    background: rgb(227, 243, 251);
     overflow-x: hidden;
 }
 body, p, li, a, ul{
@@ -57,7 +57,7 @@ h1,h3{
   font-size: 1.2em;
 }
 h2{
-    font-size: 1.6em;
+    font-size: 1em;
     font-weight: 500;
 }
 h4{
@@ -89,18 +89,14 @@ h4{
 .welcome-text{
     grid-column: 1/6;
 }
-.welcome-img{
-    grid-column: 6/8;
-}
-.welcome-img img{
-    width: 150%;
-}
+
 .welcome-text a{
     margin: 20px 0;
 }
 
 #exhibitions{
     padding: 30px 10px;
+    margin: auto;
 }
 
 #exhibitions ul{
@@ -248,14 +244,14 @@ footer img{
 }
 
 /* Small screen */
-@media screen and (min-width: 550px){
+@media screen and (min-width: 500px){
 
    #skills{
        padding: 30px 50px;
    }
    .welcome-text{
     grid-column: 1/4;
-    font-size: 16px;
+    font-size: 18px;
     text-align: left;
 }
 footer{
@@ -278,8 +274,19 @@ footer{
 .picture1, .picture2, .picture3{
     height: 270px;
 }
+
     
 }
+
+@media screen and (min-width: 650px){
+    .welcome-text h2{
+        font-size: 20px;
+    }
+   #welcome{
+       height: 40%;
+   }
+}
+
 
 /* Large screens like laptops*/
 @media screen and (min-width: 900px){
@@ -340,7 +347,13 @@ footer{
         padding: 20 0;
         box-shadow: 1px 2px 3px black;
     }
-    
+    .picture1, .picture2, .picture3{
+        height: 400px;
+    }
+    .welcome-text h2{
+        font-size: 22px;
+    }
+  
 
 }
 
@@ -405,6 +418,12 @@ footer{
          display: none;
         
      }
+     #exhibitions{
+         max-width: 1200px;
+     }
+     .picture1, .picture2, .picture3{
+        height: 500px;
+    }
    
 }
 @media screen and (min-width: 500px){
@@ -412,11 +431,7 @@ footer{
         font-size: 13px;
     }
 }
-@media screen and (min-width: 300px){
-    body{
-        font-size: 13px;
-    }
-}
+
 
 
 
@@ -509,4 +524,7 @@ label{
        font-size: 16px;
        text-align: center;
    }
+}
+section{
+    border-radius: 3px;
 }
