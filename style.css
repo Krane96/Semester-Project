@@ -578,6 +578,11 @@ label{
        text-align: center;
    }
 }
-section{
-    border-radius: 3px;
+#contact{
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+#welcome{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
