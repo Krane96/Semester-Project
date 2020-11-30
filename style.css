@@ -263,6 +263,9 @@ footer ul li a:hover{
 footer ul li a img:hover{
     opacity: .5;
 }
+footer .info li,.info-2 li{
+    padding: 3px 0;
+}
 
 /* Small screen */
 @media screen and (min-width: 500px){
