@@ -221,7 +221,7 @@ footer{
     background-image: url(images/icon-1719742\ \(2\).png);
     background-size: 17%;
     background-repeat: no-repeat;
-    background-position: center bottom 35%;
+    background-position: left bottom;
     border-top: 2px solid var(--color2);
     border-top-width: thin;
     
