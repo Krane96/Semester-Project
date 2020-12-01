@@ -620,3 +620,43 @@ label{
     padding: 20px 0;
     grid-column: 1/9;
 }
+
+
+/*----News----*/
+
+
+.container h2{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    grid-column: 1/9;
+    grid-row: 1;
+    text-align: center;
+}
+.container h3{
+    color: rgb(20, 20, 20);
+    font-weight: 500;
+    grid-column: 1/9;
+    text-align: center;
+    padding-top: 20px;
+}
+.container h4{
+    color: var(--color2);
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+}
+.container p{
+    color: black;
+    grid-column: 1/9;
+    padding-top: 15px;
+}
+.container{
+    padding: 30px 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+.news-section{
+    box-shadow: black 1px 1px 6px;
+    padding: 20px 30px;
+}
