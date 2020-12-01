@@ -597,12 +597,12 @@ label{
 }
 .about-us h1{
     color: black;
-    font-weight: bolder;
+    font-weight: bold;
     text-transform: uppercase;
     grid-column: 1/9;
     text-align: center;
     grid-row: 1;
-    box-shadow: black 1px 1px 8px;
+    box-shadow: black 1px 1px 6px;
     padding: 15px 0;
 }
 .about-us h1 p{
@@ -613,6 +613,7 @@ label{
     font-weight: normal;
     font-size: 0.8em;
     text-align: left;
+    text-transform: none;
 
 }
 .about-us img{
