@@ -202,6 +202,52 @@ h4{
     font-size: 1.3em;
     text-transform: capitalize;
 }
+.visit{
+    padding: 30px 20px;
+}
+.visit a{
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: capitalize; 
+    font-size: 1.6em;
+    display: block;
+       
+}
+.cafe, .shop, .location{
+    text-align: center;
+    padding: 10px;  
+}
+.cafe{
+    grid-column: 1/5;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10)), url(images/kayleigh-harrington-yhn4okt6ci0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 100px;
+    box-shadow: 1px 1px 6px black;
+    
+}
+.shop{
+    grid-column: 5/9;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10)), url(images/alex-person-Z4FnmtYQTa4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 100px;
+    box-shadow: 1px 1px 6px black;
+    
+}
+.location{
+    grid-row: 2;
+    grid-column: 3/7;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10)), url(images/henry-perks-BJXAxQ1L7dI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 100px;
+    box-shadow: 1px 1px 6px black;
+    
+}
 
 #contact{
     padding: 30px 20px;
@@ -673,51 +719,76 @@ label{
 
 /*----Visit----*/
 
-.visit{
+.info{
     padding: 30px 20px;
 }
-.visit a{
-    color: #ffffff;
-    font-weight: 400;
-    text-transform: capitalize; 
-    font-size: 1.6em;
-    display: block;
-       
-}
-.cafe, .shop, .location{
-    text-align: center;
-    padding: 10px;  
-}
-.cafe{
-    grid-column: 1/5;
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10)), url(images/kayleigh-harrington-yhn4okt6ci0-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    line-height: 100px;
-    box-shadow: 1px 1px 6px black;
-    
-}
-.shop{
+.hours, .hours p{
     grid-column: 5/9;
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10)), url(images/alex-person-Z4FnmtYQTa4-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    line-height: 100px;
-    box-shadow: 1px 1px 6px black;
-    
+    color: black;
+    font-weight: 400;
+    text-align: left;
 }
-.location{
-    grid-row: 2;
-    grid-column: 3/7;
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10)), url(images/henry-perks-BJXAxQ1L7dI-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    line-height: 100px;
+.address, .address p{
+    grid-column: 1/4;
+    grid-row: 1;
+    color: black;
+}
+
+.activities{
+    padding: 30px 20px;
+}
+.activities h3, .address h3, .hours h3{
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin: 30px auto;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 2px 3px;
+}
+
+.activity{
     box-shadow: 1px 1px 6px black;
-    
+}
+.activity a{
+    grid-column: 1/9;
+    margin-top: 20px;
+    cursor: default;
+}
+.activity a *{
+  margin: 0 20px;
+  max-width: 90%;
+  align-self: center;
+}
+.activity h4, .relaxarea h4{
+  color: black;
+  text-transform: capitalize;
+  font-weight: 500;
+  text-align: center;
+  padding: 15px 0;
+}
+.activity p, .relaxarea p{
+  color: black;
+  font-weight: 400;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  border-bottom: rgba(0, 0, 0, 0.466) 2px solid;
 }
 
 
+.relax{
+    padding: 30px 20px;
+}
+
+.relaxarea a{
+    grid-column: 1/9;
+    margin-top: 20px;
+    cursor: default;
+}
+.relaxarea a *{
+  margin: 0 20px;
+  max-width: 90%;
+  align-self: center;
+}
