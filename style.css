@@ -733,6 +733,12 @@ label{
     grid-row: 1;
     color: black;
 }
+.information img{
+    grid-row: 1;
+    grid-column: 1/6;
+    max-width: 100%;
+    
+}
 
 .activities{
     padding: 30px 20px;
