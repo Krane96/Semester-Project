@@ -648,7 +648,6 @@ label{
 .about-us{
     padding: 20px 20px;
     margin: auto;
-    box-shadow: 2px 2px 2px black;
 }
 .about-us h1{
     color: black;
@@ -666,7 +665,7 @@ label{
     padding: 20px 30px;
     color: black;
     font-weight: normal;
-    font-size: 0.8em;
+    font-size: 0.9em;
     text-align: left;
     text-transform: none;
 
@@ -675,7 +674,59 @@ label{
     padding: 20px 0;
     grid-column: 1/9;
 }
+.join{
+  padding: 30px 20px;
+}
+.join h4, .join h3,.join p{
+    color: black;
+}
+.join h3{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    
+}
+.join h4{
+    text-align: center;
+    font-weight: 500;
+    
+}
+.join p{
+    font-size: 1em;
+    text-align: left;
+    padding: 15px 30px;
+}
+.join img{
+    padding: 10px 30px;
+    max-width: 80%;
+    align-items: center;
 
+}
+.box{
+    box-shadow: 1px 1px 6px black;
+}
+.support{
+    grid-row: 1;
+    grid-column: 1/9;
+    margin: auto;
+    text-align: center;
+}
+
+.volunteer{
+    grid-row: 2;
+    grid-column: 1/9;
+    margin: auto;
+    text-align: center;
+}
+.internships{
+    grid-row: 3;
+    grid-column: 1/9;
+    margin: auto;
+    text-align: center;
+}
 
 /*----News----*/
 
