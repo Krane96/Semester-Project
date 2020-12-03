@@ -797,7 +797,8 @@ label{
 .information2 img{
     max-width: 100%;
 }
-.information{
+.information2 p{
+    font-size: 0.9em;
     
 }
 
