@@ -769,38 +769,33 @@ label{
 
 
 /*----Visit----*/
-.admission{
-    grid-row: 1;
-    grid-column: 1/9;
+.generalinfo{
+    padding: 20px 30px;
 }
-.admission p{
-    color: black;
-    font-weight: 400;
-    text-align: left;
-    padding: 0 20px;
+
+.generalinfo p{
+    padding-bottom: 15px;
 }
-.information1{
-    padding: 40px 15px;
+.information{
+    padding: 30px 30px;
+    max-width: 1200px;
     margin: auto;
 }
-.hours, .hours p{
-    grid-row: 2;
-    grid-column: 3/7;
+.information h3{
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin: 30px auto;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 2px 3px;
+}
+.information p{
     color: black;
-    font-weight: 400;
-    text-align: left;
-}
-.address, .address p{
-    grid-column: 3/7;
-    grid-row: 3;
-    color: black;
-    padding-bottom: 10px;
-}
-.information2 img{
-    max-width: 100%;
-}
-.information2 p{
-    font-size: 0.9em;   
+    grid-column: 1/9;
+    padding-top: 15px;
+    text-align: center;
 }
 
 .activities{
@@ -857,4 +852,7 @@ label{
   margin: 0 20px;
   max-width: 90%;
   align-self: center;
+}
+.relax p{
+    
 }
