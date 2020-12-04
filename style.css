@@ -633,8 +633,8 @@ label{
        text-align: center;
    }
    .nav a{
-       grid-column: 1/3;
-       width: 100%;
+       grid-column: 1/4;
+       width: 80%;
    }
 }
 #contact{
