@@ -634,7 +634,7 @@ label{
    }
    .nav a{
        grid-column: 1/4;
-       width: 80%;
+       width: 100%;
    }
 }
 #contact{
