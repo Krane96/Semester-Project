@@ -98,6 +98,7 @@ h4{
     background-position: center;
     background-size: 100%;
     width: 80%;
+    margin: auto;
 }
 .welcome-text{
     grid-column: 1/5;
