@@ -1,6 +1,6 @@
 body{
     font-family: 'Rubik', sans-serif;
-    background: rgb(248, 238, 238);
+    background: #fff;
     overflow-x: hidden;
 }
 body, p, li, a, ul{
@@ -19,6 +19,11 @@ body, p, li, a, ul{
 }
 li{
     list-style-type: none;
+}
+.sectioncolor{
+    background-color:rgb(248, 238, 238);
+    max-width: 1200px;
+    margin: auto;
 }
 .button{
     background: var(--color3);
@@ -83,6 +88,7 @@ h4{
     grid-template-columns: repeat(8, 1fr);
     column-gap: 30px;
     row-gap: 30px;
+    max-width: 1200px;
 }
 
 #welcome{
@@ -91,6 +97,7 @@ h4{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+    width: 80%;
 }
 .welcome-text{
     grid-column: 1/5;
@@ -203,7 +210,9 @@ h4{
     text-transform: capitalize;
 }
 .visit{
-    padding: 30px 20px;
+    padding-bottom: 60px;
+    margin: auto;
+    
 }
 .visit a{
     color: #ffffff;
@@ -211,41 +220,44 @@ h4{
     text-transform: capitalize; 
     font-size: 1.6em;
     display: block;
+    
        
 }
 .cafe, .shop, .location{
     text-align: center;
-    padding: 10px;  
+    padding: 10px; 
+    grid-column: 3/7;
+   
+     
 }
 .cafe{
-    grid-column: 1/5;
+
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10)), url(images/kayleigh-harrington-yhn4okt6ci0-unsplash.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     line-height: 100px;
-    box-shadow: 1px 1px 6px black;
-    
+    box-shadow: 1px 1px 6px black; 
 }
 .shop{
-    grid-column: 5/9;
+    
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10)), url(images/alex-person-Z4FnmtYQTa4-unsplash.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     line-height: 100px;
     box-shadow: 1px 1px 6px black;
-    
 }
 .location{
-    grid-row: 2;
-    grid-column: 3/7;
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10)), url(images/henry-perks-BJXAxQ1L7dI-unsplash.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     line-height: 100px;
     box-shadow: 1px 1px 6px black;
+   
+    
+    
     
 }
 
@@ -402,7 +414,7 @@ footer li{
    }
    .cafe, .location, .shop{
     line-height: 160px;
-    max-width: 300px;
+    
 }
 }
 
@@ -429,11 +441,9 @@ footer li{
     }
     .nav a{
         grid-column: 15/21;
-        margin: 0 15px;
+        
     }
-    .nav img{
-        max-width: 110%;
-    }
+    
     
     #welcome{
         padding-bottom: 40px;
@@ -476,7 +486,19 @@ footer li{
     .welcome-text h2{
         font-size: 22px;
     }
+  .footerlogo img{
+      max-width: 80%;
+  }
+  .location, .shop, .cafe{
+    
+      
+     
+  }
+ 
   
+  .visit a{
+      height: 100%;
+  }
 
 }
 
@@ -486,20 +508,24 @@ footer li{
         font-size: 20px;
     }
  
-    footer{
-        background-size: 4%;
-        
-    } 
+    .footerlogo img{
+        max-width: 80%;
+    }
     footer img{
         width: 50px;
-    } 
+    }
+    footer .info {
+        padding-left: 30px;
+    }
+footer .social{
+    padding-right: 30px;
+}
     .menu{
         grid-column: 10/21;
     }
     .nav img{
         max-width: 100%;
-        grid-column: 1/2;
-         
+        grid-column: 1/2;    
     }
      .nav h1{
          text-transform: uppercase;
