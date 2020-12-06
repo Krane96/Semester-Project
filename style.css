@@ -74,6 +74,7 @@ h4{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     gap: 10px;
+    
 }
 .grid2{
     display: grid;
@@ -506,7 +507,7 @@ footer li{
 /* Desktop screens*/
 @media screen and (min-width: 1200px){
     body{
-        font-size: 20px;
+        font-size: 24px;
     }
  
     .footerlogo img{
@@ -582,10 +583,16 @@ footer .social{
      .picture1, .picture2, .picture3{
         height: 500px;
     }
+    .activity a h4{
+        padding: 40px 0;
+    }
+    .activities a{
+        padding: 30px 0;
+    }
     
 
 }
-@media screen and (min-width: 500px){
+@media screen and (max-width: 500px){
     body{
         font-size: 13px;
     }
@@ -905,6 +912,9 @@ label{
 
 .activities{
     padding: 30px 20px;
+    
+    
+    text-align: center;
 }
 .activities h3, .address h3, .hours h3, .admission h3{
     color: rgba(0, 0, 0, 0.7);
@@ -916,23 +926,28 @@ label{
     margin: 30px auto;
     text-shadow: rgba(0, 0, 0, 0.3) 1px 2px 3px;
 }
+.activity{
+    box-shadow: 1px 1px 6px black;
+}
 
 .activity a{
     grid-column: 1/9;
     margin-top: 20px;
     cursor: default;
+    
 }
 .activity a *{
-  margin: 0 20px;
+  margin: auto;
   max-width: 90%;
-  align-self: center;
 }
 .activity h4, .relaxarea h4{
   color: black;
   text-transform: capitalize;
   font-weight: 500;
   text-align: center;
-  padding: 25px 0;
+  padding-top: 30px;
+  font-size: 28px;
+
 }
 .activity p, .relaxarea p{
   color: black;
@@ -952,9 +967,22 @@ label{
     grid-column: 1/9;
     margin-top: 20px;
     cursor: default;
+    text-align: center;
 }
 .relaxarea a *{
-  margin: 0 20px;
+  margin: auto;
   max-width: 90%;
-  align-self: center;
+}
+.relaxarea p{
+    padding-top: 40px;
+    max-width: 800px;
+}
+.generalinfo p{
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+.aligntextcenter p{
+  text-align: center;
+  padding-bottom: 60px;
 }
