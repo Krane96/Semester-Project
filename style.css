@@ -11,7 +11,7 @@ body, p, li, a, ul{
 .backgroundcolor{
     max-width: 1200px;
     margin: auto;
-    background: aliceblue;
+    background: rgb(250, 237, 220);
 }
 .navbar{
     background-color: var(--color1);
@@ -189,6 +189,7 @@ h4{
 #skills ul{
     margin: 40px auto;
     padding: 0;
+    max-width: 900px;
 }
 #skills li{
     padding: 10px;
@@ -727,6 +728,7 @@ label{
        grid-column: 6/16;
        font-size: 16px;
        text-align: center;
+       padding-left: 0;
    }
    .nav a{
        grid-column: 1/4;
@@ -983,14 +985,14 @@ label{
   text-align: center;
   padding-top: 30px;
   font-size: 1.3em;
+  padding-bottom: 10px;
 
 }
-.activity p, .relaxarea p{
+.relaxarea p{
   color: black;
   font-weight: 400;
   text-align: left;
-  padding-top: 10px;
-  padding-bottom: 30px;
+  padding: 10px 20px;
   border-bottom: rgba(0, 0, 0, 0.466) 2px solid;
 }
 
@@ -1010,7 +1012,7 @@ label{
   max-width: 90%;
 }
 .relaxarea p{
-    padding-top: 40px;
+    
     max-width: 800px;
 }
 .generalinfo p{
