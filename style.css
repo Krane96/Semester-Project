@@ -11,7 +11,7 @@ body, p, li, a, ul{
 .backgroundcolor{
     max-width: 1200px;
     margin: auto;
-    background: rgb(250, 237, 220);
+    background: rgb(252, 241, 227);
 }
 .navbar{
     background-color: var(--color1);
@@ -977,13 +977,14 @@ label{
 .activity a *{
   margin: auto;
   max-width: 90%;
+  padding-bottom: 15px;
 }
 .activity h4, .relaxarea h4{
   color: black;
   text-transform: capitalize;
   font-weight: 500;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 10px;
   font-size: 1.3em;
   padding-bottom: 10px;
 
