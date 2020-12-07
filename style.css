@@ -11,7 +11,7 @@ body, p, li, a, ul{
 .backgroundcolor{
     max-width: 1200px;
     margin: auto;
-    background: rgb(248, 238, 238);
+    background: aliceblue;
 }
 .navbar{
     background-color: var(--color1);
