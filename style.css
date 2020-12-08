@@ -25,6 +25,7 @@ body, p, li, a, ul{
 li{
     list-style-type: none;
 }
+/*-----mobile-----*/
 
 .button{
     background: var(--color3);
@@ -75,12 +76,10 @@ h4{
     font-size: 1.1em;
 }
 
-/*mobile*/
 .grid{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    gap: 10px;
-    
+    gap: 10px;  
 }
 .grid2{
     display: grid;
@@ -99,9 +98,7 @@ h4{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/welcomeimg.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
-   
-   
+    background-size: 100%; 
 }
 .welcome-text{
     grid-column: 1/5;
@@ -123,6 +120,7 @@ h4{
     padding: 10px;
     grid-column: 1/9;
     text-align: center;
+    max-width: 800px;
 }
 #exhibitions h3{
     color: rgba(0, 0, 0, 0.7);
@@ -133,7 +131,6 @@ h4{
     text-transform: uppercase;
     margin: 30px auto;
     text-shadow: rgba(0, 0, 0, 0.3) 1px 2px 3px;
-    
 }
 
 #exhibitions h4{
@@ -184,12 +181,11 @@ h4{
 }
 #skills{
     padding: 30px 20px;
-
 }
 #skills ul{
     margin: 40px auto;
     padding: 0;
-    max-width: 900px;
+    max-width: 800px;
 }
 #skills li{
     padding: 10px;
@@ -217,26 +213,20 @@ h4{
 .visit{
     padding-bottom: 60px;
     margin: auto;
-    
 }
 .visit a{
     color: #ffffff;
     font-weight: 400;
     text-transform: capitalize; 
     font-size: 1.6em;
-    display: block;
-    
-       
+    display: block;   
 }
 .cafe, .shop, .location{
     text-align: center;
     padding: 10px; 
-    grid-column: 3/7;
-   
-     
+    grid-column: 3/7;   
 }
 .cafe{
-
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10)), url(images/kayleigh-harrington-yhn4okt6ci0-unsplash.jpg);
     background-size: cover;
     background-position: center;
@@ -260,10 +250,6 @@ h4{
     background-repeat: no-repeat;
     line-height: 100px;
     box-shadow: 1px 1px 6px black;
-   
-    
-    
-    
 }
 
 #contact{
@@ -355,6 +341,289 @@ footer p{
     color: white;
 }
 
+/*----Visit----*/
+
+.generalinfo{
+    padding: 20px 30px;
+}
+
+.generalinfo p{
+    padding-bottom: 15px;
+}
+.information{
+    padding: 30px 30px;
+    max-width: 800px;
+    margin: auto;
+}
+.information h3{
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    margin: 30px auto;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 2px 3px;
+}
+.information p{
+    color: black;
+    grid-column: 1/9;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.activities{
+    padding: 30px 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+.activities h3, .address h3, .hours h3, .admission h3{
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    margin: 30px auto;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 2px 3px;
+}
+.activity{
+    box-shadow: 1px 1px 6px black;
+    max-width: 800px;
+}
+.activity p{
+    text-align: left;
+}
+
+.activity a{
+    grid-column: 1/9;
+    margin-top: 20px;
+    cursor: default;
+}
+.activity a *{
+  margin: auto;
+  max-width: 90%;
+  padding-bottom: 15px;
+}
+.activity h4, .relaxarea h4{
+  color: black;
+  text-transform: capitalize;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 1.3em;
+  padding-bottom: 10px;
+
+}
+.relaxarea p{
+  color: black;
+  font-weight: 400;
+  text-align: left;
+  padding: 10px 20px;
+  border-bottom: rgba(0, 0, 0, 0.466) 2px solid;
+}
+
+
+#relax{
+    padding: 30px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.relaxarea a{
+    grid-column: 1/9;
+    margin-top: 20px;
+    cursor: default;
+    text-align: center;
+}
+.relaxarea a *{
+  margin: auto;
+  max-width: 90%;
+}
+.relaxarea p{
+    max-width: 800px;
+}
+.generalinfo p{
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+.aligntextcenter p{
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+/*----News----*/
+
+.container h2{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    grid-column: 1/9;
+    grid-row: 1;
+    text-align: center;
+}
+.container h3{
+    color: rgb(20, 20, 20);
+    font-weight: 500;
+    grid-column: 1/9;
+    text-align: center;
+    padding-top: 20px;
+}
+.container h4{
+    color: var(--color2);
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+}
+.container p{
+    color: black;
+    grid-column: 1/9;
+    padding-top: 15px;
+}
+.container{
+    padding: 30px 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+.news-section{
+    box-shadow: black 1px 1px 6px;
+    padding: 20px 30px;
+}
+
+/*-----about-------*/
+
+.about-us{
+    padding: 20px 20px;
+    margin: auto;
+}
+.about-us h1{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    grid-column: 1/9;
+    text-align: center;
+    grid-row: 1;
+    box-shadow: black 1px 1px 6px;
+    padding: 15px 0;
+}
+.about-us h1 p{
+    grid-row: 2;
+    grid-column: 1/9;
+    padding: 20px 30px;
+    color: black;
+    font-weight: normal;
+    font-size: 0.9em;
+    text-align: left;
+    text-transform: none;
+}
+.about-us img{
+    padding: 20px 0;
+    grid-column: 1/9;
+}
+.join{
+  padding: 30px 20px;
+}
+.join h4, .join h3,.join p{
+    color: black;
+}
+.join h3{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+    padding-top: 15px;  
+}
+.join h4{
+    text-align: center;
+    font-weight: 500;
+}
+.join p{
+    font-size: 1em;
+    text-align: left;
+    padding: 15px 30px;
+}
+.join img{
+    padding: 10px 30px;
+    max-width: 80%;
+    align-items: center;
+}
+.box{
+    box-shadow: 1px 1px 6px black;
+}
+.support{
+    grid-row: 1;
+    grid-column: 1/9;
+    margin: auto;
+    text-align: center;
+}
+
+.volunteer{
+    grid-row: 2;
+    grid-column: 1/9;
+    margin: auto;
+    text-align: center;
+}
+.internships{
+    grid-row: 3;
+    grid-column: 1/9;
+    margin: auto;
+    text-align: center;
+}
+.contactinfo h3, p, li{
+    color: black;
+}
+.contactinfo h3{
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin: 30px auto;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 2px 3px;
+    grid-row: 1;
+    grid-column: 1/9;
+}
+.contactinfo{
+    padding: 30px 20px;
+}
+.contactinfo ul{
+    grid-row: 2;
+    grid-column: 1/9;
+}
+.contactinfo li{
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.contactinfo li:hover{
+    text-decoration: antiquewhite;
+    color: rgba(0, 0, 0, 0.8);
+}
+.contactinfo p{
+    grid-row: 3;
+    text-align: center;
+    grid-column: 1/9;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding-top: 40px;
+}
+.contactinfo a{
+    color: black;
+    font-size: 1.4em;
+}
+
+
+
+
+/*----Media-inq's----*/
+
 /* Small screen */
 @media screen and (min-width: 500px){
 
@@ -404,7 +673,6 @@ footer p{
     line-height: 140px;
 }
 
-    
 }
 
 @media screen and (min-width: 650px){
@@ -455,7 +723,6 @@ footer p{
     
     #welcome{
         padding-bottom: 40px;
-      
     }
     footer{
         background-size: 10%;
@@ -498,13 +765,7 @@ footer p{
   .footerlogo img{
       max-width: 80%;
   }
-  .location, .shop, .cafe{
-    
-      
-     
-  }
- 
-  
+
   .visit a{
       height: 100%;
   }
@@ -530,7 +791,6 @@ footer p{
     }
     footer .info {
         padding-left: 30px;
-    
     }
 footer .social{
     padding-right: 30px;
@@ -623,18 +883,13 @@ footer .social{
     max-width: 800px;
     margin: auto;
 }
-
 }
-
 
 @media screen and (max-width: 500px){
     body{
         font-size: 13px;
     }
 }
-
-
-
 
 /*Nav Menu*/
 .nav a{
@@ -694,7 +949,6 @@ label{
     background-color: var(--color2);
     text-align: center;
     padding: 8px 0;
- 
 }
 
 @media only screen and (max-width: 750px) {
@@ -744,284 +998,3 @@ label{
     border-bottom-right-radius: 3px;
 }
 
-
-/*-----about-------*/
-
-.about-us{
-    padding: 20px 20px;
-    margin: auto;
-}
-.about-us h1{
-    color: black;
-    font-weight: bold;
-    text-transform: uppercase;
-    grid-column: 1/9;
-    text-align: center;
-    grid-row: 1;
-    box-shadow: black 1px 1px 6px;
-    padding: 15px 0;
-}
-.about-us h1 p{
-    grid-row: 2;
-    grid-column: 1/9;
-    padding: 20px 30px;
-    color: black;
-    font-weight: normal;
-    font-size: 0.9em;
-    text-align: left;
-    text-transform: none;
-
-}
-.about-us img{
-    padding: 20px 0;
-    grid-column: 1/9;
-}
-.join{
-  padding: 30px 20px;
-}
-.join h4, .join h3,.join p{
-    color: black;
-}
-.join h3{
-    text-align: center;
-    font-size: 1.3em;
-    font-weight: 600;
-    text-transform: capitalize;
-    padding-bottom: 30px;
-    padding-top: 15px;
-    
-}
-.join h4{
-    text-align: center;
-    font-weight: 500;
-    
-}
-.join p{
-    font-size: 1em;
-    text-align: left;
-    padding: 15px 30px;
-}
-.join img{
-    padding: 10px 30px;
-    max-width: 80%;
-    align-items: center;
-
-}
-.box{
-    box-shadow: 1px 1px 6px black;
-}
-.support{
-    grid-row: 1;
-    grid-column: 1/9;
-    margin: auto;
-    text-align: center;
-}
-
-.volunteer{
-    grid-row: 2;
-    grid-column: 1/9;
-    margin: auto;
-    text-align: center;
-}
-.internships{
-    grid-row: 3;
-    grid-column: 1/9;
-    margin: auto;
-    text-align: center;
-}
-.contactinfo h3, p, li{
-    color: black;
-}
-.contactinfo h3{
-    color: rgba(0, 0, 0, 0.7);
-    font-weight: 600;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.2em;
-    text-transform: uppercase;
-    margin: 30px auto;
-    text-shadow: rgba(0, 0, 0, 0.3) 1px 2px 3px;
-    grid-row: 1;
-    grid-column: 1/9;
-}
-.contactinfo{
-    padding: 30px 20px;
-}
-.contactinfo ul{
-    grid-row: 2;
-    grid-column: 1/9;
-}
-.contactinfo li{
-    text-decoration: underline;
-    cursor: pointer;
-    font-size: 1em;
-    text-align: center;
-    padding-bottom: 10px;
-}
-.contactinfo li:hover{
-    text-decoration: antiquewhite;
-    color: rgba(0, 0, 0, 0.8);
-}
-.contactinfo p{
-    grid-row: 3;
-    text-align: center;
-    grid-column: 1/9;
-    text-transform: capitalize;
-    font-weight: 500;
-    padding-top: 40px;
-}
-.contactinfo a{
-    color: black;
-    font-size: 1.4em;
-}
-
-
-/*----News----*/
-
-
-.container h2{
-    color: black;
-    text-transform: uppercase;
-    font-weight: bold;
-    grid-column: 1/9;
-    grid-row: 1;
-    text-align: center;
-}
-.container h3{
-    color: rgb(20, 20, 20);
-    font-weight: 500;
-    grid-column: 1/9;
-    text-align: center;
-    padding-top: 20px;
-}
-.container h4{
-    color: var(--color2);
-    font-weight: 500;
-    margin: 0;
-    text-align: center;
-}
-.container p{
-    color: black;
-    grid-column: 1/9;
-    padding-top: 15px;
-}
-.container{
-    padding: 30px 30px;
-    max-width: 1200px;
-    margin: auto;
-}
-.news-section{
-    box-shadow: black 1px 1px 6px;
-    padding: 20px 30px;
-}
-
-
-/*----Visit----*/
-.generalinfo{
-    padding: 20px 30px;
-}
-
-.generalinfo p{
-    padding-bottom: 15px;
-}
-.information{
-    padding: 30px 30px;
-    max-width: 800px;
-    margin: auto;
-}
-.information h3{
-    color: rgba(0, 0, 0, 0.7);
-    font-weight: 600;
-    text-align: center;
-    font-weight: 700;
-    font-size: 1.6em;
-    text-transform: uppercase;
-    margin: 30px auto;
-    text-shadow: rgba(0, 0, 0, 0.3) 1px 2px 3px;
-}
-.information p{
-    color: black;
-    grid-column: 1/9;
-    padding-top: 15px;
-    text-align: center;
-    font-size: 1.1em;
-}
-
-.activities{
-    padding: 30px 20px;
-    
-    
-    text-align: center;
-}
-.activities h3, .address h3, .hours h3, .admission h3{
-    color: rgba(0, 0, 0, 0.7);
-    font-weight: 600;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.6em;
-    text-transform: uppercase;
-    margin: 30px auto;
-    text-shadow: rgba(0, 0, 0, 0.3) 1px 2px 3px;
-}
-.activity{
-    box-shadow: 1px 1px 6px black;
-    max-width: 800px;
-}
-
-.activity a{
-    grid-column: 1/9;
-    margin-top: 20px;
-    cursor: default;
-    
-}
-.activity a *{
-  margin: auto;
-  max-width: 90%;
-  padding-bottom: 15px;
-}
-.activity h4, .relaxarea h4{
-  color: black;
-  text-transform: capitalize;
-  font-weight: 500;
-  text-align: center;
-  padding-top: 10px;
-  font-size: 1.3em;
-  padding-bottom: 10px;
-
-}
-.relaxarea p{
-  color: black;
-  font-weight: 400;
-  text-align: left;
-  padding: 10px 20px;
-  border-bottom: rgba(0, 0, 0, 0.466) 2px solid;
-}
-
-
-#relax{
-    padding: 30px 20px;
-}
-
-.relaxarea a{
-    grid-column: 1/9;
-    margin-top: 20px;
-    cursor: default;
-    text-align: center;
-}
-.relaxarea a *{
-  margin: auto;
-  max-width: 90%;
-}
-.relaxarea p{
-    
-    max-width: 800px;
-}
-.generalinfo p{
-    max-width: 800px;
-    margin: auto;
-    text-align: left;
-}
-.aligntextcenter p{
-  text-align: center;
-  padding-bottom: 60px;
-}
