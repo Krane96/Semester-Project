@@ -545,6 +545,8 @@ footer p{
     font-size: 1em;
     text-align: left;
     padding: 15px 30px;
+    max-width: 650px;
+    margin: auto;
 }
 .join img{
     padding: 10px 30px;
